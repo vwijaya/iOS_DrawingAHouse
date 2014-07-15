@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0945110B1974F52A00BF1CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0945110A1974F52A00BF1CE4 /* Foundation.framework */; };
+		0945110D1974F52A00BF1CE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0945110C1974F52A00BF1CE4 /* CoreGraphics.framework */; };
+		0945110F1974F52A00BF1CE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0945110E1974F52A00BF1CE4 /* UIKit.framework */; };
+		094511151974F52A00BF1CE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 094511131974F52A00BF1CE4 /* InfoPlist.strings */; };
+		094511171974F52A00BF1CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 094511161974F52A00BF1CE4 /* main.m */; };
+		0945111B1974F52A00BF1CE4 /* VWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0945111A1974F52A00BF1CE4 /* VWAppDelegate.m */; };
+		0945111E1974F52A00BF1CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0945111C1974F52A00BF1CE4 /* Main.storyboard */; };
+		094511211974F52A00BF1CE4 /* VWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094511201974F52A00BF1CE4 /* VWViewController.m */; };
+		094511231974F52A00BF1CE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094511221974F52A00BF1CE4 /* Images.xcassets */; };
+		0945112A1974F52A00BF1CE4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094511291974F52A00BF1CE4 /* XCTest.framework */; };
+		0945112B1974F52A00BF1CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0945110A1974F52A00BF1CE4 /* Foundation.framework */; };
+		0945112C1974F52A00BF1CE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0945110E1974F52A00BF1CE4 /* UIKit.framework */; };
+		094511341974F52A00BF1CE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 094511321974F52A00BF1CE4 /* InfoPlist.strings */; };
+		094511361974F52A00BF1CE4 /* Drawing_A_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094511351974F52A00BF1CE4 /* Drawing_A_HouseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0945112D1974F52A00BF1CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094510FF1974F52A00BF1CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 094511061974F52A00BF1CE4;
+			remoteInfo = "Drawing A House";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094511071974F52A00BF1CE4 /* Drawing A House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing A House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0945110A1974F52A00BF1CE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0945110C1974F52A00BF1CE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0945110E1974F52A00BF1CE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		094511121974F52A00BF1CE4 /* Drawing A House-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing A House-Info.plist"; sourceTree = "<group>"; };
+		094511141974F52A00BF1CE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		094511161974F52A00BF1CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		094511181974F52A00BF1CE4 /* Drawing A House-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drawing A House-Prefix.pch"; sourceTree = "<group>"; };
+		094511191974F52A00BF1CE4 /* VWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWAppDelegate.h; sourceTree = "<group>"; };
+		0945111A1974F52A00BF1CE4 /* VWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWAppDelegate.m; sourceTree = "<group>"; };
+		0945111D1974F52A00BF1CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0945111F1974F52A00BF1CE4 /* VWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWViewController.h; sourceTree = "<group>"; };
+		094511201974F52A00BF1CE4 /* VWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWViewController.m; sourceTree = "<group>"; };
+		094511221974F52A00BF1CE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		094511281974F52A00BF1CE4 /* Drawing A HouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing A HouseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		094511291974F52A00BF1CE4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		094511311974F52A00BF1CE4 /* Drawing A HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing A HouseTests-Info.plist"; sourceTree = "<group>"; };
+		094511331974F52A00BF1CE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		094511351974F52A00BF1CE4 /* Drawing_A_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_A_HouseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094511041974F52A00BF1CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0945110D1974F52A00BF1CE4 /* CoreGraphics.framework in Frameworks */,
+				0945110F1974F52A00BF1CE4 /* UIKit.framework in Frameworks */,
+				0945110B1974F52A00BF1CE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094511251974F52A00BF1CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0945112A1974F52A00BF1CE4 /* XCTest.framework in Frameworks */,
+				0945112C1974F52A00BF1CE4 /* UIKit.framework in Frameworks */,
+				0945112B1974F52A00BF1CE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094510FE1974F52A00BF1CE4 = {
+			isa = PBXGroup;
+			children = (
+				094511101974F52A00BF1CE4 /* Drawing A House */,
+				0945112F1974F52A00BF1CE4 /* Drawing A HouseTests */,
+				094511091974F52A00BF1CE4 /* Frameworks */,
+				094511081974F52A00BF1CE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		094511081974F52A00BF1CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				094511071974F52A00BF1CE4 /* Drawing A House.app */,
+				094511281974F52A00BF1CE4 /* Drawing A HouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		094511091974F52A00BF1CE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0945110A1974F52A00BF1CE4 /* Foundation.framework */,
+				0945110C1974F52A00BF1CE4 /* CoreGraphics.framework */,
+				0945110E1974F52A00BF1CE4 /* UIKit.framework */,
+				094511291974F52A00BF1CE4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		094511101974F52A00BF1CE4 /* Drawing A House */ = {
+			isa = PBXGroup;
+			children = (
+				094511191974F52A00BF1CE4 /* VWAppDelegate.h */,
+				0945111A1974F52A00BF1CE4 /* VWAppDelegate.m */,
+				0945111C1974F52A00BF1CE4 /* Main.storyboard */,
+				0945111F1974F52A00BF1CE4 /* VWViewController.h */,
+				094511201974F52A00BF1CE4 /* VWViewController.m */,
+				094511221974F52A00BF1CE4 /* Images.xcassets */,
+				094511111974F52A00BF1CE4 /* Supporting Files */,
+			);
+			path = "Drawing A House";
+			sourceTree = "<group>";
+		};
+		094511111974F52A00BF1CE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				094511121974F52A00BF1CE4 /* Drawing A House-Info.plist */,
+				094511131974F52A00BF1CE4 /* InfoPlist.strings */,
+				094511161974F52A00BF1CE4 /* main.m */,
+				094511181974F52A00BF1CE4 /* Drawing A House-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0945112F1974F52A00BF1CE4 /* Drawing A HouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				094511351974F52A00BF1CE4 /* Drawing_A_HouseTests.m */,
+				094511301974F52A00BF1CE4 /* Supporting Files */,
+			);
+			path = "Drawing A HouseTests";
+			sourceTree = "<group>";
+		};
+		094511301974F52A00BF1CE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				094511311974F52A00BF1CE4 /* Drawing A HouseTests-Info.plist */,
+				094511321974F52A00BF1CE4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		094511061974F52A00BF1CE4 /* Drawing A House */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094511391974F52A00BF1CE4 /* Build configuration list for PBXNativeTarget "Drawing A House" */;
+			buildPhases = (
+				094511031974F52A00BF1CE4 /* Sources */,
+				094511041974F52A00BF1CE4 /* Frameworks */,
+				094511051974F52A00BF1CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawing A House";
+			productName = "Drawing A House";
+			productReference = 094511071974F52A00BF1CE4 /* Drawing A House.app */;
+			productType = "com.apple.product-type.application";
+		};
+		094511271974F52A00BF1CE4 /* Drawing A HouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0945113C1974F52A00BF1CE4 /* Build configuration list for PBXNativeTarget "Drawing A HouseTests" */;
+			buildPhases = (
+				094511241974F52A00BF1CE4 /* Sources */,
+				094511251974F52A00BF1CE4 /* Frameworks */,
+				094511261974F52A00BF1CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0945112E1974F52A00BF1CE4 /* PBXTargetDependency */,
+			);
+			name = "Drawing A HouseTests";
+			productName = "Drawing A HouseTests";
+			productReference = 094511281974F52A00BF1CE4 /* Drawing A HouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094510FF1974F52A00BF1CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = VW;
+				TargetAttributes = {
+					094511271974F52A00BF1CE4 = {
+						TestTargetID = 094511061974F52A00BF1CE4;
+					};
+				};
+			};
+			buildConfigurationList = 094511021974F52A00BF1CE4 /* Build configuration list for PBXProject "Drawing A House" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 094510FE1974F52A00BF1CE4;
+			productRefGroup = 094511081974F52A00BF1CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094511061974F52A00BF1CE4 /* Drawing A House */,
+				094511271974F52A00BF1CE4 /* Drawing A HouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		094511051974F52A00BF1CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094511231974F52A00BF1CE4 /* Images.xcassets in Resources */,
+				094511151974F52A00BF1CE4 /* InfoPlist.strings in Resources */,
+				0945111E1974F52A00BF1CE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094511261974F52A00BF1CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094511341974F52A00BF1CE4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094511031974F52A00BF1CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094511211974F52A00BF1CE4 /* VWViewController.m in Sources */,
+				094511171974F52A00BF1CE4 /* main.m in Sources */,
+				0945111B1974F52A00BF1CE4 /* VWAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094511241974F52A00BF1CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094511361974F52A00BF1CE4 /* Drawing_A_HouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0945112E1974F52A00BF1CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 094511061974F52A00BF1CE4 /* Drawing A House */;
+			targetProxy = 0945112D1974F52A00BF1CE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		094511131974F52A00BF1CE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094511141974F52A00BF1CE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0945111C1974F52A00BF1CE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0945111D1974F52A00BF1CE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		094511321974F52A00BF1CE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094511331974F52A00BF1CE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		094511371974F52A00BF1CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		094511381974F52A00BF1CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0945113A1974F52A00BF1CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing A House/Drawing A House-Prefix.pch";
+				INFOPLIST_FILE = "Drawing A House/Drawing A House-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0945113B1974F52A00BF1CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing A House/Drawing A House-Prefix.pch";
+				INFOPLIST_FILE = "Drawing A House/Drawing A House-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0945113D1974F52A00BF1CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drawing A House.app/Drawing A House";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing A House/Drawing A House-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Drawing A HouseTests/Drawing A HouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0945113E1974F52A00BF1CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Drawing A House.app/Drawing A House";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing A House/Drawing A House-Prefix.pch";
+				INFOPLIST_FILE = "Drawing A HouseTests/Drawing A HouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094511021974F52A00BF1CE4 /* Build configuration list for PBXProject "Drawing A House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094511371974F52A00BF1CE4 /* Debug */,
+				094511381974F52A00BF1CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094511391974F52A00BF1CE4 /* Build configuration list for PBXNativeTarget "Drawing A House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0945113A1974F52A00BF1CE4 /* Debug */,
+				0945113B1974F52A00BF1CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0945113C1974F52A00BF1CE4 /* Build configuration list for PBXNativeTarget "Drawing A HouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0945113D1974F52A00BF1CE4 /* Debug */,
+				0945113E1974F52A00BF1CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094510FF1974F52A00BF1CE4 /* Project object */;
+}
