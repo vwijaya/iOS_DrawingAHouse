@@ -21,6 +21,7 @@
 		0945112C1974F52A00BF1CE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0945110E1974F52A00BF1CE4 /* UIKit.framework */; };
 		094511341974F52A00BF1CE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 094511321974F52A00BF1CE4 /* InfoPlist.strings */; };
 		094511361974F52A00BF1CE4 /* Drawing_A_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094511351974F52A00BF1CE4 /* Drawing_A_HouseTests.m */; };
+		094511411974F72E00BF1CE4 /* VWHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 094511401974F72E00BF1CE4 /* VWHouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		094511311974F52A00BF1CE4 /* Drawing A HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing A HouseTests-Info.plist"; sourceTree = "<group>"; };
 		094511331974F52A00BF1CE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		094511351974F52A00BF1CE4 /* Drawing_A_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_A_HouseTests.m; sourceTree = "<group>"; };
+		0945113F1974F72E00BF1CE4 /* VWHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWHouseView.h; sourceTree = "<group>"; };
+		094511401974F72E00BF1CE4 /* VWHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWHouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		094511101974F52A00BF1CE4 /* Drawing A House */ = {
 			isa = PBXGroup;
 			children = (
+				0945113F1974F72E00BF1CE4 /* VWHouseView.h */,
+				094511401974F72E00BF1CE4 /* VWHouseView.m */,
 				094511191974F52A00BF1CE4 /* VWAppDelegate.h */,
 				0945111A1974F52A00BF1CE4 /* VWAppDelegate.m */,
 				0945111C1974F52A00BF1CE4 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094511411974F72E00BF1CE4 /* VWHouseView.m in Sources */,
 				094511211974F52A00BF1CE4 /* VWViewController.m in Sources */,
 				094511171974F52A00BF1CE4 /* main.m in Sources */,
 				0945111B1974F52A00BF1CE4 /* VWAppDelegate.m in Sources */,
